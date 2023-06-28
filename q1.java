@@ -375,6 +375,413 @@ System.out.println("Wrong choice");
 }
 
 
+/*
+enter the reg_no and mark of first node
+1
+11
+
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:insert at beginning
+4insert at end
+5 insert in middle
+6:delete at beginning
+7:delete at end
+8:delete in the middle
+9:delete a node according to the reg_no
+10:search if the noide with regnumber is present or not
+11:sort the  nodes
+12:count the  number of nodes
+13:reverse the linked list
+enter your choice
+1
+enter your choice y/n
+45
+enter new reg_no and mark
+45
+96
+do you want to create more nodes y/n
+y
+enter new reg_no and mark
+12
+59
+do you want to create more nodes y/n
+35
+enter new reg_no and mark
+35
+98
+do you want to create more nodes y/n
+22
+enter new reg_no and mark
+22
+87
+do you want to create more nodes y/n
+n
+
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:insert at beginning
+4insert at end
+5 insert in middle
+6:delete at beginning
+7:delete at end
+8:delete in the middle
+9:delete a node according to the reg_no
+10:search if the noide with regnumber is present or not
+11:sort the  nodes
+12:count the  number of nodes
+13:reverse the linked list
+enter your choice
+2
+1 11.0--->45 96.0--->12 59.0--->35 98.0--->22 87.0--->
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:insert at beginning
+4insert at end
+5 insert in middle
+6:delete at beginning
+7:delete at end
+8:delete in the middle
+9:delete a node according to the reg_no
+10:search if the noide with regnumber is present or not
+11:sort the  nodes
+12:count the  number of nodes
+13:reverse the linked list
+enter your choice
+3
+enter the reg no and marks of the new node to be inserted at beginning
+33
+89
+33 89.0--->1 11.0--->45 96.0--->12 59.0--->35 98.0--->22 87.0--->
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:insert at beginning
+4insert at end
+5 insert in middle
+6:delete at beginning
+7:delete at end
+8:delete in the middle
+9:delete a node according to the reg_no
+10:search if the noide with regnumber is present or not
+11:sort the  nodes
+12:count the  number of nodes
+13:reverse the linked list
+enter your choice
+2
+1 11.0--->45 96.0--->12 59.0--->35 98.0--->22 87.0--->
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:insert at beginning
+4insert at end
+5 insert in middle
+6:delete at beginning
+7:delete at end
+8:delete in the middle
+9:delete a node according to the reg_no
+10:search if the noide with regnumber is present or not
+11:sort the  nodes
+12:count the  number of nodes
+13:reverse the linked list
+enter your choice
+4
+enter the regd number and mark of the node at the ending
+29
+67
+1 11.0--->45 96.0--->12 59.0--->35 98.0--->22 87.0--->29 67.0--->
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:insert at beginning
+4insert at end
+5 insert in middle
+6:delete at beginning
+7:delete at end
+8:delete in the middle
+9:delete a node according to the reg_no
+10:search if the noide with regnumber is present or not
+11:sort the  nodes
+12:count the  number of nodes
+13:reverse the linked list
+enter your choice
+5
+enter the regd no and mark  of the new node
+16
+84
+enter the postion the new node is to be inserted
+3
+1 11.0--->45 96.0--->16 84.0--->12 59.0--->35 98.0--->22 87.0--->29 67.0--->
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:insert at beginning
+4insert at end
+5 insert in middle
+6:delete at beginning
+7:delete at end
+8:delete in the middle
+9:delete a node according to the reg_no
+10:search if the noide with regnumber is present or not
+11:sort the  nodes
+12:count the  number of nodes
+13:reverse the linked list
+enter your choice
+6
+
+the linked list after deleting the first node 
+45 96.0--->16 84.0--->12 59.0--->35 98.0--->22 87.0--->29 67.0--->
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:insert at beginning
+4insert at end
+5 insert in middle
+6:delete at beginning
+7:delete at end
+8:delete in the middle
+9:delete a node according to the reg_no
+10:search if the noide with regnumber is present or not
+11:sort the  nodes
+12:count the  number of nodes
+13:reverse the linked list
+enter your choice
+7
+
+the list after deleting the last node
+1 11.0--->45 96.0--->16 84.0--->12 59.0--->35 98.0--->22 87.0--->
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:insert at beginning
+4insert at end
+5 insert in middle
+6:delete at beginning
+7:delete at end
+8:delete in the middle
+9:delete a node according to the reg_no
+10:search if the noide with regnumber is present or not
+11:sort the  nodes
+12:count the  number of nodes
+13:reverse the linked list
+enter your choice
+8
+
+the node after deletion at a given specific position is
+enter position
+4
+1 11.0--->45 96.0--->16 84.0--->35 98.0--->22 87.0--->
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:insert at beginning
+4insert at end
+5 insert in middle
+6:delete at beginning
+7:delete at end
+8:delete in the middle
+9:delete a node according to the reg_no
+10:search if the noide with regnumber is present or not
+11:sort the  nodes
+12:count the  number of nodes
+13:reverse the linked list
+enter your choice
+9
+
+the list after deleting the node with regn number
+enter the registration number to be deleted
+45
+1 11.0--->16 84.0--->35 98.0--->22 87.0--->
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:insert at beginning
+4insert at end
+5 insert in middle
+6:delete at beginning
+7:delete at end
+8:delete in the middle
+9:delete a node according to the reg_no
+10:search if the noide with regnumber is present or not
+11:sort the  nodes
+12:count the  number of nodes
+13:reverse the linked list
+enter your choice
+10
+
+the node searched based on regd_no and updated mark is
+enter the regd number
+45
+node not present
+1 11.0--->16 84.0--->35 98.0--->22 87.0--->
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:insert at beginning
+4insert at end
+5 insert in middle
+6:delete at beginning
+7:delete at end
+8:delete in the middle
+9:delete a node according to the reg_no
+10:search if the noide with regnumber is present or not
+11:sort the  nodes
+12:count the  number of nodes
+13:reverse the linked list
+enter your choice
+35
+Wrong choice
+
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:insert at beginning
+4insert at end
+5 insert in middle
+6:delete at beginning
+7:delete at end
+8:delete in the middle
+9:delete a node according to the reg_no
+10:search if the noide with regnumber is present or not
+11:sort the  nodes
+12:count the  number of nodes
+13:reverse the linked list
+enter your choice
+10
+
+the node searched based on regd_no and updated mark is
+enter the regd number
+35
+enter marks
+55
+1 11.0--->16 84.0--->35 55.0--->22 87.0--->
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:insert at beginning
+4insert at end
+5 insert in middle
+6:delete at beginning
+7:delete at end
+8:delete in the middle
+9:delete a node according to the reg_no
+10:search if the noide with regnumber is present or not
+11:sort the  nodes
+12:count the  number of nodes
+13:reverse the linked list
+enter your choice
+11
+
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:insert at beginning
+4insert at end
+5 insert in middle
+6:delete at beginning
+7:delete at end
+8:delete in the middle
+9:delete a node according to the reg_no
+10:search if the noide with regnumber is present or not
+11:sort the  nodes
+12:count the  number of nodes
+13:reverse the linked list
+enter your choice
+2
+1 11.0--->16 84.0--->22 87.0--->35 55.0--->
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:insert at beginning
+4insert at end
+5 insert in middle
+6:delete at beginning
+7:delete at end
+8:delete in the middle
+9:delete a node according to the reg_no
+10:search if the noide with regnumber is present or not
+11:sort the  nodes
+12:count the  number of nodes
+13:reverse the linked list
+enter your choice
+12
+the number of nodes=4
+
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:insert at beginning
+4insert at end
+5 insert in middle
+6:delete at beginning
+7:delete at end
+8:delete in the middle
+9:delete a node according to the reg_no
+10:search if the noide with regnumber is present or not
+11:sort the  nodes
+12:count the  number of nodes
+13:reverse the linked list
+enter your choice
+13
+the linked list after  reverse is=
+35 55.0--->22 87.0--->16 84.0--->1 11.0--->
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:insert at beginning
+4insert at end
+5 insert in middle
+6:delete at beginning
+7:delete at end
+8:delete in the middle
+9:delete a node according to the reg_no
+10:search if the noide with regnumber is present or not
+11:sort the  nodes
+12:count the  number of nodes
+13:reverse the linked list
+enter your choice
+14
+Wrong choice
+
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:insert at beginning
+4insert at end
+5 insert in middle
+6:delete at beginning
+7:delete at end
+8:delete in the middle
+9:delete a node according to the reg_no
+10:search if the noide with regnumber is present or not
+11:sort the  nodes
+12:count the  number of nodes
+13:reverse the linked list
+enter your choice
+0
+*/
 
 
 
